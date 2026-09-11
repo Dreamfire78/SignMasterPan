@@ -1,0 +1,46 @@
+﻿; SignMasterPan language file: English (also used as fallback for missing texts)
+; Format: UTF-8, key=value. "\n" inserts a line break, %1..%4 are placeholders.
+
+[Language]
+Code=en
+Name=English
+
+[Strings]
+tray_active=Enabled
+tray_settings=Settings...
+tray_help=Help
+tray_exit=Exit
+tooltip=SignMaster Pan
+tooltip_off=SignMaster Pan (disabled)
+start=Running. Drag with the middle mouse button to pan the workspace.
+active_on=Enabled: the functions are switched on again.
+active_off=Disabled: middle mouse button and mouse wheel work normally again.
+lang_auto=Automatic (Windows language)
+hk_busy=The hotkey %1 is already in use by another program.\nPlease choose a different shortcut (tray menu → Settings).
+hook_fail=Could not install the mouse hook.
+key_ctrl=Ctrl
+help=Hold and drag the middle mouse button = pan the workspace.\nThe active tool stays selected. Esc cancels a running pan.\n\nMouse wheel over the workspace = %2 (up) / %3 (down).\nWith Ctrl/Shift/Alt/Win held, the mouse wheel works as usual.\n\nTray menu → Enabled or %1 temporarily switches all functions off and on again.\nWhich functions are used is defined in the settings.\n\nSettings are saved automatically in %4.
+
+; Settings dialog
+set_title=SignMaster Pan - Settings
+set_general=General
+set_language=Language:
+set_hotkey=Shortcut enabled on/off:
+set_pan=Pan with middle mouse button
+set_pan_enabled=Function switched on
+set_speed=Speed:
+set_speed_hint=(1.0 = workspace follows the mouse)
+set_invert=Reverse direction
+set_zoom=Mouse wheel zoom
+set_zoom_enabled=Replace mouse wheel with keys
+set_zoom_in=Key for wheel up:
+set_zoom_out=Key for wheel down:
+set_debug=Diagnostics
+set_log=Write log (SignMasterPan.log)
+set_autosave=Changes are saved immediately.
+set_defaults=Defaults
+set_close=Close
+set_speed_invalid=Please enter a number between 0.1 and 5.
+set_key_invalid=This key is not supported. Please choose another one.
+set_key_empty=A key is required for zooming.
+set_defaults_confirm=Reset all settings to their default values?

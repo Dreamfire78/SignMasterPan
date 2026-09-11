@@ -1,0 +1,46 @@
+﻿; SignMasterPan language file: German
+; Format: UTF-8, key=value. "\n" inserts a line break, %1..%4 are placeholders.
+
+[Language]
+Code=de
+Name=Deutsch
+
+[Strings]
+tray_active=Aktiviert
+tray_settings=Einstellungen...
+tray_help=Hilfe
+tray_exit=Beenden
+tooltip=SignMaster Pan
+tooltip_off=SignMaster Pan (deaktiviert)
+start=Läuft. Mittlere Maustaste ziehen = Arbeitsfläche verschieben.
+active_on=Aktiviert: Die Funktionen sind wieder eingeschaltet.
+active_off=Deaktiviert: Mittlere Maustaste und Mausrad arbeiten wieder normal.
+lang_auto=Automatisch (Windows-Sprache)
+hk_busy=Der Hotkey %1 ist bereits von einem anderen Programm belegt.\nBitte ein anderes Tastenkürzel wählen (Tray-Menü → Einstellungen).
+hook_fail=Maus-Hook konnte nicht installiert werden.
+key_ctrl=Strg
+help=Mittlere Maustaste gedrückt halten und ziehen = Arbeitsfläche verschieben.\nDas aktive Werkzeug bleibt dabei erhalten. Esc bricht einen laufenden Pan-Vorgang ab.\n\nMausrad über der Arbeitsfläche = %2 (hoch) / %3 (runter).\nMit Strg/Shift/Alt/Win bleibt das Mausrad unverändert.\n\nTray-Menü → Aktiviert oder %1 schaltet alle Funktionen vorübergehend aus und wieder ein.\nWelche Funktionen genutzt werden, wird unter Einstellungen festgelegt.\n\nDie Einstellungen werden automatisch in %4 gespeichert.
+
+; Settings dialog
+set_title=SignMaster Pan - Einstellungen
+set_general=Allgemein
+set_language=Sprache:
+set_hotkey=Tastenkürzel Aktiviert ein/aus:
+set_pan=Verschieben mit mittlerer Maustaste
+set_pan_enabled=Funktion eingeschaltet
+set_speed=Geschwindigkeit:
+set_speed_hint=(1.0 = Fläche folgt der Maus)
+set_invert=Richtung umkehren
+set_zoom=Mausrad-Zoom
+set_zoom_enabled=Mausrad durch Tasten ersetzen
+set_zoom_in=Taste für Rad hoch:
+set_zoom_out=Taste für Rad runter:
+set_debug=Diagnose
+set_log=Protokoll schreiben (SignMasterPan.log)
+set_autosave=Änderungen werden sofort gespeichert.
+set_defaults=Standardwerte
+set_close=Schließen
+set_speed_invalid=Bitte eine Zahl zwischen 0.1 und 5 eingeben.
+set_key_invalid=Diese Taste wird nicht unterstützt. Bitte eine andere wählen.
+set_key_empty=Für den Zoom wird eine Taste benötigt.
+set_defaults_confirm=Alle Einstellungen auf die Standardwerte zurücksetzen?

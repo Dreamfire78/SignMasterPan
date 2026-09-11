@@ -1,0 +1,12 @@
+# Portable AutoIt installation (download separately, see README)
+AutoIt/
+
+# Build output (published as a release asset)
+SignMasterPan.exe
+
+# User-specific files
+SignMasterPan.ini
+SignMasterPan.log
+
+# Old prototype (switches to SignMaster's hand tool), not part of the project
+SignMasterPan_PanTool.au3
